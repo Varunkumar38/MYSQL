@@ -1,0 +1,6 @@
+SELECT * FROM employees JOIN departments ON employees.deptid = departments.deptid WHERE departments.deptname = 'IT';
++------+-------+--------+--------+------------+--------+----------+
+| EId  | ENAME | DEPTID | SALARY | HIREDATE   | DEPTID | DEPTNAME |
++------+-------+--------+--------+------------+--------+----------+
+|  102 | Alice |      2 |  60000 | 2019-07-10 |      2 | IT       |
++------+-------+--------+--------+------------+--------+----------+
