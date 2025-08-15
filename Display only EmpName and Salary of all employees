@@ -1,0 +1,9 @@
+SELECT ENAME,SALARY FROM employees; 
++-------+--------+
+| ENAME | SALARY |
++-------+--------+
+| John  |  50000 |
+| Alice |  60000 |
+| Bob   |  55000 |
+| Carol |  45000 |
++-------+--------+
