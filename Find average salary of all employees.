@@ -1,0 +1,6 @@
+SELECT AVG(salary) FROM employees;
++-------------+
+| AVG(salary) |
++-------------+
+|  52500.0000 |
++-------------+
