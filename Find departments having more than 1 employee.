@@ -1,0 +1,6 @@
+SELECT deptid ,COUNT(*) AS number_of_employees  FROM employees GROUP BY deptid HAVING COUNT(*) >1;
++--------+---------------------+
+| deptid | number_of_employees |
++--------+---------------------+
+|      1 |                   2 |
++--------+---------------------+
