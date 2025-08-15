@@ -1,0 +1,8 @@
+SELECT d.deptname, MAX(salary) AS max_salary FROM employees e JOIN departments d ON e.deptid = d.deptid GROUP BY deptname;
++----------+------------+
+| deptname | max_salary |
++----------+------------+
+| HR       |      55000 |
+| IT       |      60000 |
+| SALES    |      45000 |
++----------+------------+
